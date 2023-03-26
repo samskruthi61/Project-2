@@ -1,0 +1,147 @@
+<html>
+    <head>
+    <title>Samskruthi  | About us</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <!-- Fontawesome 4 Cdn from BootstrapCDN -->
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
+    
+    </head>
+    <body>
+        <nav class="nav nav_top">
+            <div class="logo">
+                <a href="project2.html"><img src="C:\Users\kaush\Desktop\Project 2\Advance E-Commerce Website\Images\Logo\logo.jpg" width="150"></a>
+            </div>
+            <div class="nav_side">
+                <a href="about.html" target="_blank">About Us</a>
+                <a href="service.html" target="_blank">Services</a>
+                <a href="cater.html" target="_blank">Cater</a>
+                <a href="contact.html" target="_blank">Contact</a>
+                <!--<a href="#">Login/ Register</a>-->
+            </div>
+        </nav>
+
+        <div class="about_us">
+            <h2>About us</h2>
+            <div class="about_content">
+                <p>
+				14+ years<br>
+				Of Service Excellence
+               </p>
+			   
+            </div>
+			
+			 <div class="about_content">
+                <p>
+				250+ Cr<br>
+				Fastest growing IFMS company
+               </p>
+            </div>
+			
+			<div class="about_content">
+                <p>
+				60Mn + Sq.ft <br>
+				Space Managed across India 
+               </p>
+            </div>
+				
+			
+			<div class="about_content">
+                <p>
+				13500+ employees<br>
+				Strong workforce
+               </p>
+            </div>
+			
+			<div class="about_content">
+                <p>
+				96%<br>
+				Client retention 
+               </p>
+            </div>
+
+			<div class="about_content">
+                <p>
+				12 States<br>
+				16 cities and multiple locations 
+               </p>
+            </div>
+			
+			<div class="about_content">
+                <p>
+				<img src="C:\Users\kaush\Desktop\Project 2\Advance E-Commerce Website\Images\About Us\Locations.jpg">
+               </p>
+            </div>
+			
+
+            <hr>
+
+            <h2>Accrediations</h2>
+            <img src="C:\Users\kaush\Desktop\Project 2\Advance E-Commerce Website\Images\About Us\Qualitymanagement.jpg">
+			<img src="C:\Users\kaush\Desktop\Project 2\Advance E-Commerce Website\Images\About Us\Environmentmanagement.jpg">
+			<img src="C:\Users\kaush\Desktop\Project 2\Advance E-Commerce Website\Images\About Us\Occupational.jpg">
+        </div>
+    <!--
+        <div class="feed">
+            <h2>Write a Review</h2>
+            <div class="feed_form">
+                <form name="submit-googlesheet" method="post">
+                    <input type="text" name="Name" placeholder="Name"><br>
+                    <input type="email" name="Email" placeholder="Email Id "><br>
+                    <input type="number" name="Number" placeholder="Contact Number"><br>
+                    <textarea rows="5" cols="7" name="Review" placeholder="Write your review" ></textarea><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+       -->
+        <footer>
+            <div class="footer_logo">
+                <a href="project2.html"><img src="C:\Users\kaush\Desktop\Project 2\Advance E-Commerce Website\Images\Logo\logo.jpg"width="150"></a>
+            </div>
+            <div class="pages">
+                <h3>Pages</h3>
+                <a href="about.html" target="_blank">About Us</a>|
+                <a href="service.html" target="_blank">Services</a>|
+                <a href="cater.html" target="_blank">Cater</a>|
+                <a href="" target="_blank">Sign Up</a>
+            </div>
+            <div class="doc">
+                <h3>Documents</h3>
+                <a href="" target="_blank">Privacy Policy</a>|
+                <a href="" target="_blank">Terms of Use</a>|
+                <a href="" target="_blank">Refund Policy</a>
+            </div>
+            <div class="social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/gitamdeemeduniversity/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/school/gitam-deemed-university/?originalSubdomain=in" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" ></i></a>
+                <a href="https://www.instagram.com/gitamdeemeduniversity/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
+                <a href="https://twitter.com/GITAMUniversity?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter" aria-hidden="true" ></i></a> 
+                
+            </div>
+
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <a href="https://api.WhatsApp.com/send?phone=+919874563215" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="tel: +919874563215"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="mailto: gitam.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            </div>
+            <hr>
+            <p>Copyright &copy; 2021 Samskruthi. All rights reserved.</p>
+        </footer>
+
+                
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzlkAA1MifG3km_OaDNoVBRS4Fe9YqNjvlxHp-kznLhidj_nFJ2LNJz1zXAtubWnE-ZYg/exec'
+            const form = document.forms['submit-googlesheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks you for your review , Hope you had great shopping with us."))
+                .catch(error => console.error('Error!', error.message))
+            })
+    </script>
+    </body>
+</html>
