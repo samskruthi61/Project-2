@@ -57,8 +57,9 @@
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
+  
     height:80vh;
-	//opacity:0.8;
+	opacity:0.8;
 }
 .main .main_content{
     padding-top:15%;
